@@ -1,0 +1,21 @@
+{
+  "name": "doker42/laravel-csv-to-array",
+  "description": "helper for convert csv/xls to array",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "doker",
+      "email": "doker42@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "maatwebsite/excel": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Doker42\\ToArrayConverter\\": "src"
+    }
+  }
+}
